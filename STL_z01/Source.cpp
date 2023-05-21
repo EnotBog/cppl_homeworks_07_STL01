@@ -13,15 +13,6 @@ bool comp_decrease(const std::pair<char, int>& a, const std::pair<char, int>& b)
 	return a.second > b.second;
 }
 
-class MyCmp
-{
-public:
-	bool operator()(const int lval, const int rval) const
-	{
-		return lval > rval ? true : false;
-	}
-};
-
 
 
 
